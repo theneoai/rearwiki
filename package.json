@@ -1,0 +1,25 @@
+{
+  "name": "rearwiki",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.19.3",
+    "preact-router": "^4.1.2",
+    "@supabase/supabase-js": "^2.39.0",
+    "fuse.js": "^7.0.0",
+    "marked": "^11.1.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.8"
+  }
+}
